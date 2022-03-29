@@ -8,3 +8,41 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Rubik Mono One', sans-serif;;
 }
+.firstpart{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+img{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    color: yellow;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%,-10%);
+    font-size: 30px;
+    text-align: center;
+    /* max-height: 50%; */
+}
+.secondpart{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+.thirdpart{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+.thirdpart > .text{
+    color: green;
+}
