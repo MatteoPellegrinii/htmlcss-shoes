@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Inspiration', cursive;
@@ -29,7 +30,6 @@ img{
     transform: translate(-50%,-10%);
     font-size: 30px;
     text-align: center;
-    /* max-height: 50%; */
 }
 .secondpart{
     width: 100vw;
@@ -46,3 +46,26 @@ img{
 .thirdpart > .text{
     color: green;
 }
+header{
+    position: fixed;
+    z-index: 99;
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+}
+ul{
+    position: absolute;
+    top: 10%;
+    right: 8%;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+.button{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 0 8px;
+    border: solid 1px black;
+}
+
