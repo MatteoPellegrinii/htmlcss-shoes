@@ -26,7 +26,7 @@ img{
     color: yellow;
     position: absolute;
     left: 50%;
-    bottom: 10%;
+    bottom: 8%;
     transform: translate(-50%,-10%);
     font-size: 30px;
     text-align: center;
@@ -71,12 +71,10 @@ li{
     padding: 0 6px;
     border: solid 1px black;
     cursor: pointer;
-    font-family: 'Inspiration', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Rubik Mono One', sans-serif; 
 }
 .button:hover{
     color: deeppink;
+    box-shadow: 0 20px rgba(0, 0, 0, 0.219);
 }
 
 
